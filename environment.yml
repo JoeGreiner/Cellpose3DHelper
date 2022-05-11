@@ -1,0 +1,12 @@
+name: CellposeHelper3D
+dependencies:
+  - python==3.8.5
+  - conda-forge::itk>=5.2.0
+  - pytorch::pytorch
+  - cudatoolkit==11.3
+  - conda-forge::napari>=0.4.0
+  - matplotlib
+  - pip
+  - pip:
+    - cellpose>=2.0.5
+    - napari
